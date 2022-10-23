@@ -84,6 +84,7 @@ body {
     list-style-type: none;
     padding: 0;
     justify-content: center;
+    /*Tome, proč mi zde nezafungovalo align-items: stretch?*/
 }
 
 .portfolio {
@@ -116,7 +117,7 @@ body {
 }
 
 a:link {
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:visited {
