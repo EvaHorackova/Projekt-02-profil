@@ -17,7 +17,7 @@ tlačítko twitter          #1da1f2
 
 body {
   background-color: #bdc3c7;
-  color: white;
+  color: #bdc3c7;
   margin: 20px 30px;
 }
 
@@ -53,6 +53,7 @@ body {
     position: relative;
     left: -140px;
     bottom: -40px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 50%);
     }
 
 .obsah {
@@ -106,14 +107,20 @@ body {
 
 .portfolio:hover {
     background-color: #e74c3c;
+    color: white;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 50%);
 }
 
 .facebook:hover {
     background-color: #3b5998;
+    color: white;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 50%);
 }
 
 .twitter:hover {
     background: #1da1f2;
+    color: white;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 50%);
 }
 
 a:link {
